@@ -42,7 +42,7 @@ def change_couleur() -> None:
     """Modifie le contenu de la variable globale couleur par une valeur donnée
     par l'utilisateur."""
     global couleur
-    couleur = input("Donnez une couleur\n")
+    couleur = input("Donnez une couleur")
 
 
 couleur = "blue"
